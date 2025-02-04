@@ -46,4 +46,4 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar
 Este projeto está licenciado sob a Licença MIT. Veja o arquivo LICENSE para mais detalhes.
 
 ## Contato:
-Para mais informações, entre em contato pelo email: [seu-email@example.com]
+Para mais informações, entre em contato pelo email: Carllos.victor@hotmail.com
