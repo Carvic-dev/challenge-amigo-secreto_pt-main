@@ -12,6 +12,7 @@ function addFriend() {
 
         // Adiciona um amigo na lista de amigos e implementa o uso de vírgulas para separar os nomes/
         let namesArray = name.split(',').map(name => name.trim());
+        namesArray = namesArray.filter(name => name !== '');
         friends.push(...namesArray);
         clearField();
         friendsList();
