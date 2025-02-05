@@ -1,13 +1,18 @@
 # Amigo Secreto
+ Demostração de funcionamento
+
+   ![gif](https://github.com/user-attachments/assets/9ca71260-78ba-4753-ac80-50bf927b1fa9)
+
 
 Este projeto é uma aplicação web simples para sortear amigos de uma lista, ideal para brincadeiras de "Amigo Secreto". A aplicação permite que o usuário adicione nomes de amigos a uma lista, visualize a lista de amigos, e sorteie um amigo aleatoriamente. Após o sorteio, o nome do amigo sorteado é exibido na tela e a lista de amigos é limpa para um novo sorteio.
 
 ## Funcionalidades:
 1. **Adicionar Amigos**: Permite ao usuário adicionar nomes de amigos a uma lista.
-2. **Visualizar Lista de Amigos**: Exibe a lista de amigos adicionados.
-3. **Sortear Amigo**: Sorteia um amigo aleatoriamente da lista e exibe o nome sorteado.
-4. **Limpar Campo**: Limpa o campo de entrada de texto após adicionar um amigo.
-5. **Mensagens de Validação**: Exibe mensagens apropriadas se a lista de amigos estiver vazia ou se houver menos de dois amigos para sortear.
+2. **Adicionar vários Amigos**: Permite ao usuário adicionar vários nomes de amigos a uma lista ao separar-los por virgulas.
+3. **Visualizar Lista de Amigos**: Exibe a lista de amigos adicionados.
+4. **Sortear Amigo**: Sorteia um amigo aleatoriamente da lista e exibe o nome sorteado.
+5. **Limpar Campo**: Limpa o campo de entrada de texto após adicionar um amigo.
+6. **Mensagens de Validação**: Exibe mensagens apropriadas se a lista de amigos estiver vazia ou se houver menos de dois amigos para sortear.
 
 ## Tecnologias Utilizadas:
 - **HTML**: Estrutura da página web.
