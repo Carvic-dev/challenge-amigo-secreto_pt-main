@@ -1,6 +1,6 @@
 let friends = [''];
 
-
+// Essa função é responsável por adicionar um amigo na lista de amigos
 function addFriend() {
     let name = document.querySelector('input').value;
 
@@ -9,7 +9,10 @@ function addFriend() {
         return;
 
     } else {
-        friends.push(name);
+
+        // Adiciona um amigo na lista de amigos e implementa o uso de vírgulas para separar os nomes/
+        let namesArray = name.split(',').map(name => name.trim());
+        friends.push(...namesArray);
         clearField();
         friendsList();
         let list = document.getElementById('resultado');
@@ -17,6 +20,7 @@ function addFriend() {
     };
 };
 
+// Essa função é responsável por listar os amigos adicionados
 function friendsList() {
     let list = document.querySelector('ul');
     list.innerHTML = '';
@@ -30,16 +34,18 @@ function friendsList() {
     }
 }
 
+// essa função é responsável por limpar o campo de input
 function clearField() {
     document.querySelector('input').value = '';
 };
 
+// essa função é responsável por sortear um amigo na lista de amigos
 function sortFriend() {
 
     let listF = document.getElementById('listaAmigos');
     listF.innerHTML = '';
 
-   
+   // trecho de alerta para caso a lista de amigos seja menor que 2
     if (friends.length < 2) {
         alert('Adione pelos menos 2 amigos para sortear!');
         return;
@@ -54,5 +60,4 @@ function sortFriend() {
 
     friends = [];
 };
-
 
