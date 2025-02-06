@@ -45,7 +45,7 @@ function sortFriend() {
 
    // trecho de alerta para caso a lista de amigos seja menor que 2
     if (friends.length < 2) {
-        alert('Adione pelos menos 2 amigos para sortear!');
+        alert('Adicione pelos menos 2 amigos para sortear!');
         return;
     };
    
